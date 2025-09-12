@@ -131,25 +131,61 @@ color: rgb(255, 255, 255);
   transform: scale(1.13);
 }
 
-#more {
+/* Common style */
+#more,
+.cv {
   display: inline-block;
   background-color: rgb(224, 3, 3);
   color: white;
-  margin-top: 10px;
   border-radius: 20px;
-  padding: 7px 20px;
+  padding: 10px 25px;
   border: none;
-  font-size: 19px;
+  margin-top: 20px;
+  font-size: 18px;
   letter-spacing: 1px;
-  box-shadow: 0 0 5px rgb(238, 0, 0), 0 0 25px rgb(224, 48, 48);
+  box-shadow: 0 0 5px rgb(238, 0, 0), 0 0 15px rgb(224, 48, 48);
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  text-align: center;
 }
 
-#more:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px rgb(235, 0, 0), 0 0 15px rgb(224, 48, 48);
-
+/* Hover */
+#more:hover,
+.cv:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgb(235, 0, 0);
+  color: white;
 }
+
+/* Wrap container */
+.btn-group {
+  display: flex;
+  justify-content: center; /* center align */
+  align-items: center;
+  flex-wrap: wrap; /* agar jagah kam ho to neeche chale jaye */
+  gap: 12px; /* button ke darmiyan gap */
+  margin-top: 15px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  #more,
+  .cv {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  #more,
+  .cv {
+    font-size: 15px;
+    padding: 7px 16px;
+  }
+}
+
 
 .hero-image {
   flex: 1;
