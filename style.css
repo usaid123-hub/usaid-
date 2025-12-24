@@ -23,17 +23,17 @@ body{
     font-weight: 500;
 } 
 #port{
-    color: rgb(224, 3, 3);
+    color: #28a745;
     font-weight:600;
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .navbar-toggler{
-    background-color: rgb(224, 3, 3);
+    background-color: #28a745;
 }
 #home:hover{
-    color: rgb(224, 3, 3);
+    color: #28a745;
     font-style: italic;
 }
 .nav-link-item {
@@ -50,7 +50,7 @@ body{
   bottom: 0; /* or use: bottom: 4px; to shift line up a bit */
   height: 2px;
   width: 0;
-  background-color: rgb(224, 3, 3);
+  background-color: #28a745;
   transition: width 0.3s ease-in-out;
  
 }
@@ -83,7 +83,7 @@ body{
   font-weight: 70;
   letter-spacing: 1px;
   min-width: 260px;
-  text-shadow: 0 2px 16px rgba(116, 113, 113, 0.667);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 .text{
 color: rgb(255, 255, 255); 
@@ -91,15 +91,15 @@ color: rgb(255, 255, 255);
 
 #hello {
   margin-top: 40px;
-  color: rgb(224, 3, 3);
+  color: #28a745;
 }
 
 #usaid {
-  color: rgb(224, 3, 3);
+  color: #28a745;
 }
 
 #i {
-  color: rgb(224, 3, 3);
+  color: #28a745;
 }
 
 .para1 {
@@ -114,20 +114,20 @@ color: rgb(255, 255, 255);
   justify-content: center;
   width: 45px;
   height: 45px;
-  border: 2px solid rgb(224, 3, 3);
+  border: 2px solid #28a745;
   text-decoration: none;
   border-radius: 100px;
   background: transparent;
   margin: 0px 15px 20px 0px;
   font-size: 25px;
-  box-shadow: 0 4px 24px 0 #e9edee22, 0 1.5px 8px 0 rgba(172, 166, 166, 0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   color: rgb(255, 255, 255);
 }
 
 .icon-circle:hover {
   border: 2px solid white;
-  color: rgb(224, 3, 3);
-  box-shadow: 0 0 5px rgb(224, 3, 3), 0 0 25px rgb(224, 3, 3);
+  color: #28a745;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   transform: scale(1.13);
 }
 
@@ -135,7 +135,7 @@ color: rgb(255, 255, 255);
 #more,
 .cv {
   display: inline-block;
-  background-color: rgb(224, 3, 3);
+  background-color: #28a745;
   color: white;
   border-radius: 20px;
   padding: 10px 25px;
@@ -143,7 +143,7 @@ color: rgb(255, 255, 255);
   margin-top: 20px;
   font-size: 18px;
   letter-spacing: 1px;
-  box-shadow: 0 0 5px rgb(238, 0, 0), 0 0 15px rgb(224, 48, 48);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   text-decoration: none;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
@@ -154,7 +154,7 @@ color: rgb(255, 255, 255);
 #more:hover,
 .cv:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgb(235, 0, 0);
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.5);
   color: white;
 }
 
@@ -197,11 +197,8 @@ color: rgb(255, 255, 255);
   height: 400px;
   border-radius: 50%;
   object-fit: cover;
-  border: 5px solid #fff;
-  box-shadow:
-    0 0 40px rgba(224, 3, 3, 0.8),
-    0 0 20px rgba(224, 3, 3, 0.5),
-    0 0 20px rgba(224, 3, 3, 0.3);
+  border: 4px solid #fff;
+  box-shadow: 0 4px 16px rgba(40, 167, 69, 0.4);
   transition: all 0.3s ease;
   margin-top: 20px;
 }
@@ -209,10 +206,7 @@ color: rgb(255, 255, 255);
 
 #img:hover {
   transform: scale(1.05);
-  box-shadow:
-    0 0 50px rgba(224, 3, 3, 0.9),
-    0 0 50px rgba(224, 3, 3, 0.6),
-    0 0 50px rgba(224, 3, 3, 0.4);
+  box-shadow: 0 6px 20px rgba(40, 167, 69, 0.6);
 }
 
 /* ✅ Responsive Fixes */
@@ -246,7 +240,7 @@ color: rgb(255, 255, 255);
   padding-bottom: 60px;
 }
 span{
-   color: rgb(224, 3, 3); 
+   color: #28a745; 
 }
 
 #about img {
@@ -255,11 +249,8 @@ span{
   height: 300px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid #fff;
-  box-shadow:
-    0 0 40px rgba(224, 3, 3, 0.8),
-    0 0 20px rgba(224, 3, 3, 0.5),
-    0 0 20px rgba(224, 3, 3, 0.3);
+  border: 4px solid #fff;
+  box-shadow: 0 4px 16px rgba(40, 167, 69, 0.4);
 }
   #about img {
     margin-bottom: 30px;
@@ -320,36 +311,38 @@ span{
 
 #my {
   
-  color: rgb(224, 3, 3);
+  color: #28a745;
   font-size: 2.5rem;
   margin-bottom: 20px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 #ser {
-  color: rgb(224, 3, 3);
+  color: #28a745;
   margin-top: 15px;
 }
 
 #fo {
-  color: rgb(224, 3, 3);
+  color: #28a745;
 }
 
 #hire {
-  box-shadow: 0 0 5px rgb(224, 3, 3), 0 0 25px rgb(224, 3, 3);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   margin-top: 19px;
   color: white;
+  border-color: #28a745;
 }
 
 #hire:hover {
-  background-color: rgb(224, 3, 3);
+  background-color: #28a745;
   border: 1px solid white;
 }
 
 .service-card {
-  border: 1.5px solid #ca0e0e;
+  border: 1.5px solid #28a745;
   border-radius: 10px 20px 10px 20px;
   background: linear-gradient(120deg, #1a1919 80%, #8b37491a 100%);
-  box-shadow: 0 2px 16px 0 #0dcaf011, 0 1.5px 8px 0 rgba(0, 0, 0, 0.10);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: transform 0.25s linear, box-shadow 0.25s linear, border-color 0.25s linear, background 0.25s linear;
   height: 100%;
@@ -357,9 +350,9 @@ span{
 
 .service-card:hover {
   transform: translateY(-10px) scale(1.04) rotate(-1deg);
-  box-shadow: 0 8px 32px 0 #40404144, 0 2px 16px 0 rgba(0, 0, 0, 0.18);
-  border-color: rgb(224, 3, 3) !important;
-  background: linear-gradient(120deg, #131212 60%, #f00d2044 100%);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  border-color: #28a745 !important;
+  background: linear-gradient(120deg, #131212 60%, #28a74544 100%);
 }
 
 /* Remove fixed height & width from #fi */
@@ -394,40 +387,40 @@ span{
 }
 
 #pro{
-     border: 1.5px solid #ca0e0e;
+     border: 1.5px solid #28a745;
      margin-top: 40px;
          background: linear-gradient(120deg, #1a1919 80%, #8b37491a 100%);
-    box-shadow: 0 2px 16px 0 #ffffff11, 0 1.5px 8px 0 rgba(255, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   
 }
 #pro:hover{
   transform: scale(1.05);
-   box-shadow: 0 8px 32px 0 #ff000044, 0 2px 16px 0 rgba(228, 228, 228, 0.18);
+   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
     
 }
 .clear{
-    color: rgb(234, 0, 0);
+    color: #28a745;
     font-size: 25px;
     font-weight: 900;
 }
 #view{
     text-decoration: none;
  color: rgb(255, 255, 255);  
- border: 1px solid rgb(224, 3, 3);
+ border: 1px solid #28a745;
  padding: 5px;
  border-radius: 5px;
-   box-shadow: 0 0 5px rgb(224, 3, 3),0 0 25px rgb(224, 3, 3);
+   box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 #view:hover{
     color: white;
     border: 1px solid white;
-   background-color: rgb(224, 3, 3);
-     box-shadow: 0 0 5px rgb(224, 3, 3),0 0 25px rgb(224, 3, 3);
+   background-color: #28a745;
+     box-shadow: 0 2px 8px rgba(0,0,0,0.3);
      
 }
 
 #sp{
-    background-color: rgb(224, 3, 3);
+    background-color: #28a745;
     color: white;
     padding: 5px;
     border: 1px solid white;
@@ -449,7 +442,7 @@ span{
   background: #1a1a1a;
   border-radius: 20px;
   padding: 25px 30px;
-  box-shadow: 0 0 15px #ff0000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   transition: transform 0.3s ease-in-out;
 }
 
@@ -465,7 +458,7 @@ span{
 
 .skill-info i {
   font-size: 36px;
-  color: rgb(234, 3, 3);
+  color: #28a745;
 }
 
 .skill-info span {
@@ -483,7 +476,7 @@ span{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: conic-gradient(#ec0202 var(--percent), #ffffff 0deg);
+  background: conic-gradient(#28a745 var(--percent), #ffffff 0deg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -529,7 +522,7 @@ span{
   margin-bottom: 30px;
   padding: 40px;
   border-radius: 15px;
-  box-shadow: 0 0 15px #f00000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   background-color: #1d1d1d; /* required for contrast & box-shadow */
   overflow: hidden;
 }
@@ -542,15 +535,15 @@ span{
 .form-control,
 .form-control:focus {
   background-color: #1d1d1d;
-  border: 2px solid #e20000;
+  border: 2px solid #28a745;
   color: #fff;
 }
 
 .btn-send {
-  background-color: rgb(231, 0, 0);
+  background-color: #28a745;
   border: none;
   color: #ffffff;
-  box-shadow: 0 0 5px rgb(224, 3, 3), 0 0 25px rgb(224, 3, 3);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   padding: 10px 25px;
   border-radius: 8px;
   border: 1px solid white;
@@ -558,19 +551,19 @@ span{
 }
 
 .btn-send:hover {
-  background-color: #d00000;
+  background-color: #1e7e34;
   color: white;
   transform: scale(1.1);
 }
 
 #num {
   margin-right: 10px;
-  color: rgb(233, 2, 2);
+  color: #28a745;
 }
 
 .form-icon {
   margin-right: 10px;
-  color: rgb(233, 2, 2);
+  color: #28a745;
 }
 
 #em {
@@ -582,7 +575,7 @@ span{
   .contact-container {
     padding: 25px 15px;
     border-radius: 12px;
-    box-shadow: 0 0 10px #f00000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   }
 
   #contact {
@@ -599,7 +592,7 @@ textarea:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0px 1000px #201e1e inset !important;
   -webkit-text-fill-color: #ffffff !important;
   transition: background-color 5000s ease-in-out 0s;
-  border: 1px solid #e40000 !important;
+  border: 1px solid #28a745 !important;
 }
 
 
@@ -607,17 +600,24 @@ textarea:-webkit-autofill:focus {
     
     
   footer a:hover {
-    color: #e90000 !important;
+    color: #28a745 !important;
+    transition: color 0.3s ease-in-out;
+  }
+  .footer-link {
+    color: #f8f9fa;
+  }
+  .footer-link:hover {
+    color: #28a745;
     transition: color 0.3s ease-in-out;
   }
   #follow{
-    color: rgb(224, 3, 3);
+    color: #28a745;
   }
   #link{
-     color: #e90000 ;
+     color: #28a745 ;
   }
   #con{
-     color: #e90000 ;
+     color: #28a745 ;
   }
   .karachi{
     color: white;
@@ -625,17 +625,17 @@ textarea:-webkit-autofill:focus {
    
   }
   .karachi:hover{
-        color: rgb(224, 3, 3);
+        color: #28a745;
       
     }
     .me-4{
        width: 45px;
   height: 45px;
-      color: rgb(235, 0, 0);
-      border: 2px solid rgb(226, 0, 0);
+      color: #28a745;
+      border: 2px solid #28a745;
       border-radius: 100px;
       background: transparent;
-      box-shadow: 0 4px 24px 0 #e9edee22, 0 1.5px 8px 0 rgba(172, 166, 166, 0.1);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
      padding: 8px;
       font-size: 18px;
   color: rgb(255, 255, 255);
@@ -644,20 +644,20 @@ textarea:-webkit-autofill:focus {
          }
   .me-4:hover{
      border: 2px solid white;
-  color: rgb(224, 3, 3);
-  box-shadow: 0 0 5px rgb(224, 3, 3), 0 0 25px rgb(224, 3, 3);
+  color: #28a745;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   transform: scale(1.13);
   }
   #arrow{
-    color: rgb(234, 0, 0);
-    border: 1px solid rgb(234, 0, 0);
-    box-shadow: 0 0 5px rgb(255, 255, 255),0 0 5px rgb(253, 253, 253);
+    color: #28a745;
+    border: 1px solid #28a745;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   }
   #arrow:hover{
     color: white;
     border: 1px solid white;
-    background-color: rgb(224, 3, 3);
-    box-shadow: 0 0 15px rgb(224, 3, 3),0 0 25px rgb(224, 3, 3);
+    background-color: #28a745;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   }
   
 
